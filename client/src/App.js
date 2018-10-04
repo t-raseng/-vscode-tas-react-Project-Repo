@@ -120,7 +120,7 @@ class App extends Component {
             <div className="column centered empty"></div>
             <div className="column centered">
               <div className="centered">
-                <a href="https://code.visualstudio.com/tutorials/app-service-extension/getting-started" target="_blank" rel="noopener noreferrer">
+                <a href="https://aka.ms/tas-node-walkthrough" target="_blank" rel="noopener noreferrer">
                   <button className="continue-btn" type="button">
                     CONTINUE WALKTHROUGH >
               </button>
