@@ -13,8 +13,6 @@ main();
 
 async function main() {
 
-  process.env['APPSETTING_SITE_SITEKEY'] = 'testkey8';
-
   const PORT = process.env.PORT || 3001;
   let expiryTimestamp;
   if (!process.env['SITE_EXPIRY_UTC'] || !process.env['USER_GUID']) {
