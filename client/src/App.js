@@ -61,12 +61,6 @@ class App extends Component {
 
                 <div>
                   <p className="link">
-                    <a href={this.cloneInsidersHref()} id="clone-insiders">Clone with VS Code Insiders</a>
-                  </p>
-                </div>
-
-                <div>
-                  <p className="link">
                     <a href="#" onClick={this.toggleCreds.bind(this)} id="show-creds">Generate your Git credentials</a>
                   </p>
                   {creds}
